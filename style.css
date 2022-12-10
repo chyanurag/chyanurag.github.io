@@ -1,0 +1,8 @@
+*{
+	font-family:"Consolas",monospace;
+}
+#text{
+	color:red;
+	background-color:yellow;
+	border:2px solid black;
+}
