@@ -1,0 +1,44 @@
+# section information
+section:
+  name: Education
+  id: education
+  template: sections/education.html # Use "sections/education-alt.html for alternate template.
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+degrees:
+- name: B.E in Information Technology
+  icon: fa-graduation-cap
+  timeframe: 2022-2026
+  institution:
+    name: LR Tiwari College of Engineering
+    url: "#"
+    logo: /images/sections/education/university.jpg
+    # Can optionally show a different logo for dark theme
+    # darkLogo: /images/sections/education/university.jpg
+  grade: #(optional)
+    scale: CGPA
+    achieved: 7.2
+    outOf: 10
+  takenCourses: #(optional)
+    # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
+    showGrades: true
+    collapseAfter: 3
+    courses:
+    - name: Data Structures and Algorithm
+      achieved: 8.5
+      outOf: 10
+    - name: Network Security
+      achieved: 7.8
+      outOf: 10
+    - name: Operating System
+      achieved: 7
+      outOf: 10
+    - name: Artificial Intelligence & Data Sciene - 1
+      achieved: 8.0
+      outOf: 10
+  extracurricularActivities: #(optional)
+  - Won several coding competitions.

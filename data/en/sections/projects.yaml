@@ -1,0 +1,58 @@
+# section information
+section:
+  name: Projects
+  id: projects
+  enable: true
+  weight: 5
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# filter buttons
+buttons:
+- name: All
+  filter: "all"
+- name: Academic
+  filter: "academic"
+- name: Hobby
+  filter: "hobby"
+
+# your projects
+projects:
+- name: Chess
+  role: Developer
+  timeline: "22 Aug 2023 - 24 Aug 2023"
+  repo: https://github.com/chyanurag/react-chess # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: Realtime chess app
+  tags: ["react", "socket.io", "chess"]
+
+- name: Reddit
+  role: Developer
+  timeline: "21 Jun 2024 - 23 Jun 2024"
+  url: "https://github.com/chyanurag/reddit"
+  summary: Full stack reddit clone with subreddits and post creation and authentication using auth.js
+  tags: ["reddit","clone", "nextjs"]
+
+- name: Sampark
+  role: Developer
+  timeline: "19 March 2024 - 20 March 2024"
+  repo: https://github.com/chyanurag/sampark
+  #url: ""
+  summary: A blockchain based reporting system for a hackathon
+  tags: ["blockchain", "smart-city"]
+
+- name: Teeny
+  role: Developer
+  timeline: "19 Jan 2024 - 23 Jan 2019"
+  repo: https://github.com/chyanurag/teeny
+  #url: ""
+  summary: A transpiler to convert BASIC like code to C using python
+  tags: ["python", "compiler", "c", "BASIC"]
+
+- name: Engima Clone in x86
+  role: Developer
+  timeline: "Jun 2019 - Present"
+  repo: https://github.com/chyanurag/nasm-enigma
+  summary: A enimga machine clone in x86 assembly
+  tags: ["enigma","assembly", "cryptography"]

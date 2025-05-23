@@ -1,0 +1,16 @@
+# some information about you
+name: "Anurag Choudhary"
+nickname: "Anurag"
+# greeting message before your name. it will default to "Hi! I am" if not provided
+greeting: "Hi, I am"
+image: "images/author/john.png"
+# give your some contact information. they will be used in the footer
+contactInfo:
+  email: "anurag23095@example.com"
+  phone: "+91 9321694711"
+  github: chyanurag
+
+# some summary about what you do
+summary:
+  - I am a Developer
+  - I do recreational programming
